@@ -31,6 +31,7 @@ gem 'devise', git: 'https://github.com/plataformatec/devise.git', :branch => 'lm
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -45,6 +46,8 @@ group :development, :test do
   gem 'spring'
   
   gem "rspec-rails", "3.5.0"
+  
+  gem "rake", "~>10.3.0"
   
 end
 
